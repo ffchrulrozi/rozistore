@@ -127,8 +127,7 @@ export default function Home() {
       <section>
         <Carousel slidesToShow={5}>
           {brands.map((brand, brandKey) => (
-
-            <div className='brand' style={{ background: img(brand.img) }}></div>
+            <div className='brand' style={{ background: img(brand.img) }} key={brandKey}></div>
           ))}
         </Carousel>
       </section>
