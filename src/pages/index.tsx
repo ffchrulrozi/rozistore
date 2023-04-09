@@ -132,7 +132,7 @@ export default function Home() {
         </Carousel>
       </section>
 
-      <footer className='home-footer grid grid-cols-2'>
+      <footer className='home-footer grid grid-cols-2 px-32 py-10 gap-10'>
         <div className='flex gap-5'>
           <div className='logo'></div>
 
